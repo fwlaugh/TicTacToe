@@ -87,7 +87,6 @@ public class TicTacToe {
             try {
                 desiredRow = s.nextInt();
                 desiredCol = s.nextInt();
-                System.out.println("COOL");
                 if(desiredRow - 1 > 3 || desiredRow - 1 < 0) {
                     System.out.printf("(%d, %d) is not a valid location because it is out of bounds. Try again.%n", desiredRow, desiredCol);
                 } else if(desiredCol - 1 > 3 || desiredCol - 1 < 0) {
